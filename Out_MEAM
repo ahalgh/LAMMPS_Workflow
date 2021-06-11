@@ -1,0 +1,30 @@
+Al1_pot_properties.txt
+
+Minimization started!
+  Optimizing Lattice...
+  Lattice Minimization @ 0 K Success!
+Finite Temp Optimization started!
+
+  Running with Temperature of 1.0 [K]
+  Running with Temperature of 301.0 [K]
+  Running with Temperature of 601.0 [K]
+  Running with Temperature of 901.0 [K]
+  Running with Temperature of 1201.0 [K]
+  Running with Temperature of 1501.0 [K]
+  Lattice Optimization @ finite Temps Success!
+Energy/Volume Curve Calculation started!
+  Calculating E/V curves..
+  E/V Curve Calculation Successful!
+[-3.41060803991658, -3.30882839414773, -3.09823801262198, -3.38207904796185] 4.049999999999957 -3.41060803991658
+Point Defect Calculations started!
+  Calculating Point Defect Energies...
+  Point Defect Energy Calculation Successful!
+Thermal Conductivity Calculation Begun!
+  Calculating...
+Thermal Conductivity Calculation Success!
+Thermal Expansivity and Specific Heat Calculation Begun!
+  Calculating...
+Thermal Expansivity and Specific Heat Calculation Success!
+Isothermal Compressibility Calculation Begun!
+  Calculating...
+Isothermal Compressibility Calculation Success!

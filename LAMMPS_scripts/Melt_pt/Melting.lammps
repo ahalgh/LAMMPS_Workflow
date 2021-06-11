@@ -1,0 +1,82 @@
+#--------------Define Units------------------------------------------
+clear
+units metal
+dimension 3
+boundary p p p
+atom_style full
+
+#------------Read Input File--------------------------------------
+lattice     fcc 4.04525
+region  box block 0 1 0 1 0 1 units lattice
+create_box  1 box
+create_atoms 1 box
+replicate 6 6 12 
+group liq id 1:864
+group sol id 865:1728
+
+# ---------- Define Interatomic Potential ---------------------------
+pair_style eam/fs
+pair_coeff * * ./Al1.eam.fs Al
+neighbor 2.0 bin 
+neigh_modify delay 10 check yes 
+
+# ---------- Define Thermo State --------------------- 
+variable tempset     equal 933 # K
+variable melttemp     equal 1100 # K adjust high enough to melt quickly
+variable presset     equal 1.0 # bars
+
+# ---------- Run Minimization --------------------- 
+#fix     1 all nve
+#dump 1 all atom 100 dump.lammpstrj
+min_style cg 
+minimize 1e-25 1e-25 5000 1000
+velocity all create ${tempset} 87979 dist gaussian
+variable timestep1     equal 0.001  
+
+timestep ${timestep1}
+thermo 100
+thermo_style custom step pe lx ly lz ke etotal temp press density #pxx pyy pzz
+# ---------- Run Dynamics --------------------- 
+
+variable thermofac     equal 100.0 
+variable tempdamp equal ${thermofac}*${timestep1}
+variable presfac     equal 1000.0 
+variable presdamp equal ${presfac}*${timestep1}
+
+#-----------NVT ------------------------
+fix     1 all nvt temp ${tempset} ${tempset} ${tempdamp}
+#
+#  run 10000 steps at Tmelt for short time
+#
+dump    1       all xyz 100 outputnvt_sim.xyz
+run 10000
+unfix 1
+
+#------------Freeze solid Half and NVT liquid half---------
+fix immobile sol setforce  0.0 0.0 0.0
+fix     2 liq nvt temp ${melttemp} ${melttemp} ${tempdamp}
+dump    2       all xyz 100 outputnvt_liqmelt.xyz
+run 10000
+unfix 2
+
+#-------------Keep solid frozen, Simulate liquid at Tmelt---
+fix     3 liq nvt temp ${tempset} ${tempset} ${tempdamp}
+dump    3       all xyz 100 outputnvt_liqmelt.xyz
+run 10000
+unfix 3
+
+#-------------Keep solid frozen, Allow Z-axis to expand in NPT---
+fix     4 liq npt temp ${tempset} ${tempset} ${tempdamp} z ${presset} ${presset} ${presdamp}
+dump    4       all xyz 100 outputnpt_expand.xyz
+run     50000
+unfix 4 
+unfix immobile
+#----------Equilibrate to true Tmelt------
+fix 5 all nve
+run 50000
+dump    5       all xyz 100 outputnve_equilibrate.xyz
+unfix 5 
+
+#----hopefully reaches equilibrium temperature----
+
+

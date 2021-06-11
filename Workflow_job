@@ -1,0 +1,28 @@
+#PBS -S /bin/bash
+#PBS -A ACF-UTK0011
+#PBS -l nodes=1:ppn=16,walltime=3:00:00
+#PBS -l partition=bigmem
+#PBS -o Out_MEAM
+#PBS -e Error_MEAM
+#PBS -m be
+#PBS -M agreenh1@vols.utk.edu
+########################################################################################
+# Author: Alex Greenhalgh, agreenh1@vols.utk.edu
+# Date: 5/25/2021
+
+# Purpose: Automation of thermo, bulk, point defect, etc, properties for potential file
+cd $PBS_O_WORKDIR
+
+filepath=`pwd`
+
+#Clear old output and error files
+
+module load lammps/30Apr19
+
+#Updating environmental variable so lammps knows where to find potential
+export LAMMPS_POTENTIALS="$(pwd)/Input_potential"
+pypath="$(pwd)/Python_automation/MEAM_properties.py"
+module load python3
+
+#Begin running MEAM_properties
+python3 "$pypath"

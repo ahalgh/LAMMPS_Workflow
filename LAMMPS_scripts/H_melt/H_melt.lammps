@@ -1,0 +1,104 @@
+#--------------Define Units------------------------------------------
+clear
+units metal
+dimension 3
+boundary p p p
+atom_style full
+
+#------------Read Input File--------------------------------------
+#variable latconst file lat_const.txt
+variable latconst equal 4.15 
+lattice fcc ${latconst} 
+region  box block 0 1 0 1 0 1 units lattice
+create_box  1 box
+create_atoms 1 box
+replicate 7 7 7 
+
+# ---------- Define Interatomic Potential ---------------------------
+pair_style eam/fs
+pair_coeff * * ./Al1.eam.fs Al
+neighbor 2.0 bin 
+neigh_modify delay 10 check yes 
+
+#variable meltT file Melttemp.txt
+#Simulate liquid to calculate enthalpy
+
+# ---------- Define Thermo State --------------------- 
+variable meltT equal 926 #K, will be read in from melting results in the future
+variable tempset     equal ${meltT} # K
+variable meltHigh     equal 3000 # K
+variable presset     equal 1 # bars
+
+# ---------- Run Minimization --------------------- 
+min_style cg 
+minimize 1e-25 1e-25 5000 1000
+velocity all create ${meltHigh} 87979 dist gaussian
+variable timestep1     equal 0.001  
+
+timestep ${timestep1}
+thermo 100
+thermo_style custom step pe lx ly lz ke etotal temp press density enthalpy
+# ---------- Run Dynamics --------------------- 
+
+variable thermofac     equal 100.0 
+variable tempdamp equal ${thermofac}*${timestep1}
+variable presfac     equal 1000.0 
+variable presdamp equal ${presfac}*${timestep1}
+
+#-----------NVT ------------------------
+fix     1 all nvt temp ${tempset} ${tempset} ${tempdamp}
+dump    1       all xyz 100 outputnvt_simliq.xyz
+run 10000
+unfix 1
+#########################################################################################
+#Solid phase now
+#########################################################################################
+#--------------Define Units------------------------------------------
+clear
+units metal
+dimension 3
+boundary p p p
+atom_style full
+
+#------------Read Input File--------------------------------------
+variable latconst file lat_const.txt
+lattice fcc ${latconst} 
+region  box block 0 1 0 1 0 1 units lattice
+create_box  1 box
+create_atoms 1 box
+replicate 7 7 7 
+
+# ---------- Define Interatomic Potential ---------------------------
+pair_style eam/fs
+pair_coeff * * ./Al1.eam.fs Al
+neighbor 2.0 bin 
+neigh_modify delay 10 check yes 
+
+variable meltT file Melttemp.txt
+#Simulate solid to calculate enthalpy
+
+# ---------- Define Thermo State --------------------- 
+variable tempset     equal ${meltT} # K
+variable meltHigh     equal 3000 # K
+variable presset     equal 1 # bars
+
+# ---------- Run Minimization --------------------- 
+min_style cg 
+minimize 1e-25 1e-25 5000 1000
+velocity all create ${tempset} 87979 dist gaussian 
+
+timestep ${timestep1}
+thermo 100
+thermo_style custom step pe lx ly lz ke etotal temp press density enthalpy
+# ---------- Run Dynamics --------------------- 
+
+variable thermofac     equal 100.0 
+variable tempdamp equal ${thermofac}*${timestep1}
+variable presfac     equal 1000.0 
+variable presdamp equal ${presfac}*${timestep1}
+
+#-----------NVT ------------------------
+fix     1 all nvt temp ${tempset} ${tempset} ${tempdamp}
+dump    1       all xyz 100 outputnvt_simsol.xyz
+run 10000
+unfix 1

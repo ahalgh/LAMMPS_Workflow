@@ -1,0 +1,6 @@
+#!/bin/bash
+
+find ${filepath} -name '*Error_MEAM*' -delete
+find ${filepath} -name '*Out_MEAM*' -delete
+qsub Workflow_job
+

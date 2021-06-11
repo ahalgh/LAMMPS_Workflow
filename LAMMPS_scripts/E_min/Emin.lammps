@@ -1,0 +1,48 @@
+# ---------- Initialize Simulation --------------------- 
+print "Starting Energy Min"
+units metal 
+dimension 3 
+boundary p p p 
+atom_style full
+variable stable_structure file stable.txt 
+variable lattice_guess file lattice_guess.txt
+lattice ${stable_structure} ${lattice_guess} 
+region box block 0 1 0 1 0 1 units lattice
+create_box 1 box
+create_atoms 1 box
+variable unit_cells equal "7"
+replicate ${unit_cells} ${unit_cells} ${unit_cells}
+
+# ---------- Define Interatomic Potential --------------------- 
+variable pairstyle file pairsty.txt
+pair_style ${pairstyle} 
+variable potential file potential.txt
+variable type file type.txt
+pair_coeff * * ${potential} ${type}
+neighbor 2.0 bin 
+neigh_modify delay 10 check yes 
+ 
+# ---------- Run Minimization --------------------- 
+fix 1 all box/relax iso 0.0 vmax 0.001
+thermo 10 
+thermo_style custom step pe lx ly lz press pxx pyy pzz pe
+min_style cg 
+minimize 1e-25 1e-25 5000 10000 
+
+variable natoms equal "count(all)" 
+variable teng equal "pe"
+variable length equal "lx"
+variable latconst equal ${length}/${unit_cells}
+variable ecoh equal "v_teng/v_natoms"
+
+print ""
+print "-------------------------------"
+print "Total energy (eV) = ${teng};"
+print "Number of atoms = ${natoms};"
+print "Lattice constant (Angstoms) = ${length};"
+print "Lattice constant (Angstoms) of single unit cell = ${latconst};"
+print "Cohesive energy (eV) = ${ecoh};"
+
+print "All done!" 
+print "-------------------------------"
+print "${latconst}" file lat_const.txt
