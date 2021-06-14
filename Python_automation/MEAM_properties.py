@@ -50,7 +50,7 @@ def main():
         not_in_temps = True
         print(Bulk_room)
     
-    Finite_graph(lat_temp)
+    Finite_graph(lat_temp,potential)
     
     #Format a big table of all bulk constants over temperature 
     Var_txt(lat_const,"lat_const.txt")
@@ -65,7 +65,7 @@ def main():
         Bulk_finite[1:,i] = Bulk_prop(lat_temp[i,0])
         
 
-    Bulk_graph(Bulk_finite)
+    Bulk_graph(Bulk_finite,potential)
     bulk_toc = time.perf_counter()
     
     #Initizing all these variables from indexes for readability
@@ -86,7 +86,7 @@ def main():
     Ev_mat = EV_curves()
     #print(Ev_mat)
     
-    Ev_graph(Ev_mat)
+    Ev_graph(Ev_mat,potential)
     #toc = time.perf_counter()
     def_tic = time.perf_counter()
     Var_txt(lat_const,"lat_const.txt")

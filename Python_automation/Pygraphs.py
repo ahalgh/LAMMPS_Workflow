@@ -107,7 +107,7 @@ def Ev_graph(Ev_mat,potential):
     #Need to make graph labels not hard coded
     plt.xlabel('V/V0_stablephase')
     plt.ylabel('DelE [eV]')
-    plt.title(potential,'Crystal Structure Stability')
+    plt.title(potential+' Crystal Structure Stability')
     plt.grid()
     plt.savefig(out_file)
 
@@ -139,7 +139,7 @@ def Bulk_graph(bulk_finite,potential):
     plt.legend(['C11', 'C12', 'C44'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Elastic constants [GPa]')
-    plt.title('Elastic Constant of',potential,'over Temperature')
+    plt.title('Elastic Constant of '+potential+' over Temperature')
     plt.grid()
     plt.savefig(out_file)
     
@@ -152,7 +152,7 @@ def Bulk_graph(bulk_finite,potential):
     plt.legend(['Bulk Modulus', 'Shear Modulus 1', 'Shear Modulus 2'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Elastic Properties [GPa]')
-    plt.title('Elastic Properties of',potential,'over Temperature')
+    plt.title('Elastic Properties of '+potential+' over Temperature')
     plt.grid()
     plt.savefig(out_file)
     
@@ -163,7 +163,7 @@ def Bulk_graph(bulk_finite,potential):
     plt.legend(['Poisson Ratio'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Poisson Ratio')
-    plt.title('Poisson Ratio of',potential,'over Temperature')
+    plt.title('Poisson Ratio of '+potential+' over Temperature')
     plt.grid()
     plt.savefig(out_file)
 
@@ -184,6 +184,6 @@ def Finite_graph(lat_temp,potential):
     plt.plot(Temp, lat)
     plt.ylabel('Equilibrated Lattice constant [A]')
     plt.xlabel('Temperature [K]')
-    plt.title('Lattice Constant of',potential,' over Temperature')
+    plt.title('Lattice Constant of '+potential+' over Temperature')
     plt.grid()
     plt.savefig(out_file)    
