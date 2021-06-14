@@ -32,7 +32,7 @@ lattice 	fcc 3.6390874570119  orient x 1 0 0 orient y 0 1 0 orient z 0 0 1
 Lattice spacing in x,y,z = 3.63909 3.63909 3.63909
 create_atoms	1 region simbox
 Created 2048 atoms
-  create_atoms CPU = 0.000377395 secs
+  create_atoms CPU = 0.000380527 secs
 
 # ------------------------ FORCE FIELDS -----------------------
 variable pairstyle file pairsty.txt
@@ -82,9 +82,9 @@ Per MPI rank memory allocation (min/avg/max) = 5.842 | 5.842 | 5.842 Mbytes
 Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms 
        0    -6723.822      29.1127      29.1127      29.1127 7.6930343e-09 7.6874263e-09 7.6894196e-09 7.7022569e-09    -6723.822 
        1    -6723.822      29.1127      29.1127      29.1127 7.6909196e-09 7.6850545e-09 7.6838182e-09 7.7038862e-09    -6723.822 
-Loop time of 0.0141602 on 1 procs for 1 steps with 2048 atoms
+Loop time of 0.0140346 on 1 procs for 1 steps with 2048 atoms
 
-92.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+97.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = energy tolerance
@@ -98,12 +98,12 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.013973   | 0.013973   | 0.013973   |   0.0 | 98.68
+Pair    | 0.013855   | 0.013855   | 0.013855   |   0.0 | 98.72
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 6.0027e-05 | 6.0027e-05 | 6.0027e-05 |   0.0 |  0.42
+Comm    | 5.9855e-05 | 5.9855e-05 | 5.9855e-05 |   0.0 |  0.43
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0001273  |            |       |  0.90
+Other   |            | 0.0001202  |            |       |  0.86
 
 Nlocal:    2048 ave 2048 max 2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -124,9 +124,9 @@ WARNING: No fixes defined, atoms won't move (../verlet.cpp:55)
 Per MPI rank memory allocation (min/avg/max) = 4.842 | 4.842 | 4.842 Mbytes
 Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms 
        1    -6723.822      29.1127      29.1127      29.1127 7.6909196e-09 7.6850545e-09 7.6838182e-09 7.7038862e-09    -6723.822 
-Loop time of 6.31e-07 on 1 procs for 0 steps with 2048 atoms
+Loop time of 5.4e-07 on 1 procs for 0 steps with 2048 atoms
 
-158.5% CPU use with 1 MPI tasks x 1 OpenMP threads
+185.2% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -136,7 +136,7 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 6.31e-07   |            |       |100.00
+Other   |            | 5.4e-07    |            |       |100.00
 
 Nlocal:    2048 ave 2048 max 2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -200,9 +200,9 @@ Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms
       40   -6719.4907      29.1127      29.1127      29.1127   -208.37495   -208.37495   -208.37495   -208.37495   -6719.4907 
       50   -6719.4907      29.1127      29.1127      29.1127   -208.37495   -208.37495   -208.37495   -208.37495   -6719.4907 
       57   -6719.4907      29.1127      29.1127      29.1127   -208.37495   -208.37495   -208.37495   -208.37495   -6719.4907 
-Loop time of 0.532298 on 1 procs for 57 steps with 2047 atoms
+Loop time of 0.532504 on 1 procs for 57 steps with 2047 atoms
 
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = energy tolerance
@@ -216,12 +216,12 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.52592    | 0.52592    | 0.52592    |   0.0 | 98.80
+Pair    | 0.52612    | 0.52612    | 0.52612    |   0.0 | 98.80
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0022963  | 0.0022963  | 0.0022963  |   0.0 |  0.43
-Output  | 0.00021459 | 0.00021459 | 0.00021459 |   0.0 |  0.04
+Comm    | 0.0023043  | 0.0023043  | 0.0023043  |   0.0 |  0.43
+Output  | 0.00021191 | 0.00021191 | 0.00021191 |   0.0 |  0.04
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.00387    |            |       |  0.73
+Other   |            | 0.003872   |            |       |  0.73
 
 Nlocal:    2047 ave 2047 max 2047 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

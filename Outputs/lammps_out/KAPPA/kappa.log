@@ -39,7 +39,7 @@ Created orthogonal box = (0 0 0) to (14.5902 14.5902 14.5902)
   1 by 1 by 1 MPI processor grid
 create_atoms 1 box
 Created 256 atoms
-  create_atoms CPU = 0.000217467 secs
+  create_atoms CPU = 0.000207095 secs
 mass         1 26.981539
 pair_style	eam/fs
 pair_coeff * * ./Al1.eam.fs Al
@@ -75,20 +75,20 @@ Step Temp E_pair E_mol TotEng Press
     4000    299.67089   -516.21563            0   -288.43382    154843.99 
     6000    310.62618   -490.73315            0   -254.62415    162583.22 
     8000    298.81504   -495.88234            0   -268.75106    157392.16 
-Loop time of 6.35263 on 1 procs for 8000 steps with 256 atoms
+Loop time of 6.40515 on 1 procs for 8000 steps with 256 atoms
 
-Performance: 435.221 ns/day, 0.055 hours/ns, 1259.321 timesteps/s
+Performance: 431.653 ns/day, 0.056 hours/ns, 1248.996 timesteps/s
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 6.0364     | 6.0364     | 6.0364     |   0.0 | 95.02
-Neigh   | 0.1974     | 0.1974     | 0.1974     |   0.0 |  3.11
-Comm    | 0.0705     | 0.0705     | 0.0705     |   0.0 |  1.11
-Output  | 7.1116e-05 | 7.1116e-05 | 7.1116e-05 |   0.0 |  0.00
-Modify  | 0.032275   | 0.032275   | 0.032275   |   0.0 |  0.51
-Other   |            | 0.01593    |            |       |  0.25
+Pair    | 6.0842     | 6.0842     | 6.0842     |   0.0 | 94.99
+Neigh   | 0.20048    | 0.20048    | 0.20048    |   0.0 |  3.13
+Comm    | 0.072112   | 0.072112   | 0.072112   |   0.0 |  1.13
+Output  | 7.8573e-05 | 7.8573e-05 | 7.8573e-05 |   0.0 |  0.00
+Modify  | 0.031841   | 0.031841   | 0.031841   |   0.0 |  0.50
+Other   |            | 0.01646    |            |       |  0.26
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -188,20 +188,20 @@ Step Temp v_Jx v_Jy v_Jz v_k11 v_k22 v_k33
    96000    291.04809 0.00011123923 1.6317337e-05 -6.5689929e-05    1.5894009    1.1810828    2.0041108 
    98000    312.24523 0.00025807053 5.9960426e-05 0.00011088318    1.8559281    1.1480053    1.9844503 
   100000    305.37839 -0.00011751754 5.053102e-05 -0.00014836178    1.7378528    1.4465285    1.9594874 
-Loop time of 111.204 on 1 procs for 100000 steps with 256 atoms
+Loop time of 111.932 on 1 procs for 100000 steps with 256 atoms
 
-Performance: 310.781 ns/day, 0.077 hours/ns, 899.250 timesteps/s
-99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 308.759 ns/day, 0.078 hours/ns, 893.401 timesteps/s
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 102.62     | 102.62     | 102.62     |   0.0 | 92.29
-Neigh   | 2.5208     | 2.5208     | 2.5208     |   0.0 |  2.27
-Comm    | 0.90238    | 0.90238    | 0.90238    |   0.0 |  0.81
-Output  | 0.004205   | 0.004205   | 0.004205   |   0.0 |  0.00
-Modify  | 4.9217     | 4.9217     | 4.9217     |   0.0 |  4.43
-Other   |            | 0.2301     |            |       |  0.21
+Pair    | 103.17     | 103.17     | 103.17     |   0.0 | 92.17
+Neigh   | 2.5841     | 2.5841     | 2.5841     |   0.0 |  2.31
+Comm    | 0.93302    | 0.93302    | 0.93302    |   0.0 |  0.83
+Output  | 0.0042983  | 0.0042983  | 0.0042983  |   0.0 |  0.00
+Modify  | 5.0155     | 5.0155     | 5.0155     |   0.0 |  4.48
+Other   |            | 0.2295     |            |       |  0.21
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -221,4 +221,4 @@ average conductivity: 1.71462289991933[W/mK] @ 301.0 K, 0.0824245576280701 /A\^3
 print $k file Therm_cond.txt
 print 1.71462289991933 file Therm_cond.txt
 1.71462289991933
-Total wall time: 0:01:57
+Total wall time: 0:01:58

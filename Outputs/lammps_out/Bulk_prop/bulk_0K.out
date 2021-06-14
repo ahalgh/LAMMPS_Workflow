@@ -5,7 +5,7 @@ Lattice spacing in x,y,z = 3.63909 3.63909 3.63909
 Created orthogonal box = (0 0 0) to (3.63909 3.63909 3.63909)
   1 by 1 by 1 MPI processor grid
 Created 4 atoms
-  create_atoms CPU = 0.00121 secs
+  create_atoms CPU = 0.00120066 secs
 Replicating atoms ...
   orthogonal box = (0 0 0) to (25.4736 25.4736 25.4736)
   1 by 1 by 1 MPI processor grid
@@ -17,8 +17,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000144706 secs
-  replicate CPU = 0.00057957 secs
+  special bonds CPU = 0.000143413 secs
+  replicate CPU = 0.000567835 secs
 Neighbor list info ...
   update every 1 steps, delay 0 steps, check yes
   max neighbors/atom: 2000, page size: 100000
@@ -38,9 +38,9 @@ Per MPI rank memory allocation (min/avg/max) = 7.194 | 7.194 | 7.194 Mbytes
 Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume 
        0            0   -4504.4354 7.8417482e-09 7.8429749e-09 7.8518447e-09 7.8304249e-09 -2.2303448e-10 -8.6623642e-12 1.5878227e-11    25.473612    25.473612    25.473612    16529.952 
        1            0   -4504.4354 -1.4972096e-10 -1.7934283e-10 -1.0563985e-10 -1.6418021e-10 5.7628707e-11 1.8605361e-11 -2.2980091e-11    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.00820278 on 1 procs for 1 steps with 1372 atoms
+Loop time of 0.00833791 on 1 procs for 1 steps with 1372 atoms
 
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.1% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -54,13 +54,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.0079809  | 0.0079809  | 0.0079809  |   0.0 | 97.29
-Bond    | 4.16e-07   | 4.16e-07   | 4.16e-07   |   0.0 |  0.01
+Pair    | 0.0081188  | 0.0081188  | 0.0081188  |   0.0 | 97.37
+Bond    | 2.21e-07   | 2.21e-07   | 2.21e-07   |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 3.2427e-05 | 3.2427e-05 | 3.2427e-05 |   0.0 |  0.40
+Comm    | 3.2398e-05 | 3.2398e-05 | 3.2398e-05 |   0.0 |  0.39
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0001891  |            |       |  2.30
+Other   |            | 0.0001864  |            |       |  2.24
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -92,8 +92,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000120057 secs
-  read_restart CPU = 0.00135871 secs
+  special bonds CPU = 0.000120273 secs
+  read_restart CPU = 0.000531757 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -172,7 +172,7 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       54            0   -4503.4949    14502.097     18597.24    12454.525    12454.525 -3.7617328e-12 2.1520461e-11 -2.007609e-11    25.218876    25.473612    25.473612    16364.653 
       55            0   -4503.4949    14502.097     18597.24    12454.525    12454.525 8.5552289e-12 1.2684151e-11 1.1174444e-11    25.218876    25.473612    25.473612    16364.653 
       56            0   -4503.4949    14502.097     18597.24    12454.525    12454.525 -2.816196e-11 1.2265076e-11 -1.7344741e-11    25.218876    25.473612    25.473612    16364.653 
-Loop time of 0.332769 on 1 procs for 55 steps with 1372 atoms
+Loop time of 0.332718 on 1 procs for 55 steps with 1372 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -188,13 +188,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.32791    | 0.32791    | 0.32791    |   0.0 | 98.54
-Bond    | 8.945e-06  | 8.945e-06  | 8.945e-06  |   0.0 |  0.00
+Pair    | 0.32789    | 0.32789    | 0.32789    |   0.0 | 98.55
+Bond    | 7.518e-06  | 7.518e-06  | 7.518e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012375  | 0.0012375  | 0.0012375  |   0.0 |  0.37
-Output  | 0.0012184  | 0.0012184  | 0.0012184  |   0.0 |  0.37
+Comm    | 0.0012399  | 0.0012399  | 0.0012399  |   0.0 |  0.37
+Output  | 0.0012237  | 0.0012237  | 0.0012237  |   0.0 |  0.37
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002395   |            |       |  0.72
+Other   |            | 0.002361   |            |       |  0.71
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -224,8 +224,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000122128 secs
-  read_restart CPU = 0.000721166 secs
+  special bonds CPU = 0.000132995 secs
+  read_restart CPU = 0.000666383 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -308,7 +308,7 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       58            0     -4503.58    -13933.84   -16144.586   -12828.467   -12828.467 5.2975506e-12 -6.7418831e-12 4.0178658e-12    25.728348    25.473612    25.473612    16695.252 
       59            0     -4503.58    -13933.84   -16144.586   -12828.467   -12828.467 1.1126155e-11 -3.7944526e-12 -7.5528995e-12    25.728348    25.473612    25.473612    16695.252 
       60            0     -4503.58    -13933.84   -16144.586   -12828.467   -12828.467 -6.8377724e-12 3.9635907e-12 -6.029983e-12    25.728348    25.473612    25.473612    16695.252 
-Loop time of 0.36092 on 1 procs for 59 steps with 1372 atoms
+Loop time of 0.363104 on 1 procs for 59 steps with 1372 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -324,13 +324,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.35563    | 0.35563    | 0.35563    |   0.0 | 98.53
-Bond    | 1.1143e-05 | 1.1143e-05 | 1.1143e-05 |   0.0 |  0.00
+Pair    | 0.3579     | 0.3579     | 0.3579     |   0.0 | 98.57
+Bond    | 1.1353e-05 | 1.1353e-05 | 1.1353e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.001322   | 0.001322   | 0.001322   |   0.0 |  0.37
-Output  | 0.0013403  | 0.0013403  | 0.0013403  |   0.0 |  0.37
+Comm    | 0.0013117  | 0.0013117  | 0.0013117  |   0.0 |  0.36
+Output  | 0.0013248  | 0.0013248  | 0.0013248  |   0.0 |  0.36
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002615   |            |       |  0.72
+Other   |            | 0.002554   |            |       |  0.70
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -360,8 +360,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000123424 secs
-  read_restart CPU = 0.000448607 secs
+  special bonds CPU = 0.000118925 secs
+  read_restart CPU = 0.000447673 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -439,9 +439,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       54            0   -4503.4949    14502.097    12454.525     18597.24    12454.525 -5.6555918e-12 8.1726698e-12 1.2081146e-11    25.473612    25.218876    25.473612    16364.653 
       55            0   -4503.4949    14502.097    12454.525     18597.24    12454.525 3.3912321e-11 1.1463018e-11 9.7183537e-12    25.473612    25.218876    25.473612    16364.653 
       56            0   -4503.4949    14502.097    12454.525     18597.24    12454.525 -4.0257114e-11 7.6386155e-12 -1.5920489e-12    25.473612    25.218876    25.473612    16364.653 
-Loop time of 0.332833 on 1 procs for 55 steps with 1372 atoms
+Loop time of 0.332934 on 1 procs for 55 steps with 1372 atoms
 
-99.2% CPU use with 1 MPI tasks x 1 OpenMP threads
+98.3% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -455,13 +455,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.32784    | 0.32784    | 0.32784    |   0.0 | 98.50
-Bond    | 1.1708e-05 | 1.1708e-05 | 1.1708e-05 |   0.0 |  0.00
+Pair    | 0.327      | 0.327      | 0.327      |   0.0 | 98.22
+Bond    | 9.708e-06  | 9.708e-06  | 9.708e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012672  | 0.0012672  | 0.0012672  |   0.0 |  0.38
-Output  | 0.0013016  | 0.0013016  | 0.0013016  |   0.0 |  0.39
+Comm    | 0.0012466  | 0.0012466  | 0.0012466  |   0.0 |  0.37
+Output  | 0.0012508  | 0.0012508  | 0.0012508  |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002411   |            |       |  0.72
+Other   |            | 0.003428   |            |       |  1.03
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -491,8 +491,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000125099 secs
-  read_restart CPU = 0.0006602 secs
+  special bonds CPU = 0.000127263 secs
+  read_restart CPU = 0.000602911 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -574,9 +574,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       58            0     -4503.58    -13933.84   -12828.467   -16144.586   -12828.467 2.601663e-12 4.3871017e-12 2.3071467e-11    25.473612    25.728348    25.473612    16695.252 
       59            0     -4503.58    -13933.84   -12828.467   -16144.586   -12828.467 -6.5770734e-12 -2.1510166e-12 8.4424144e-12    25.473612    25.728348    25.473612    16695.252 
       60            0     -4503.58    -13933.84   -12828.467   -16144.586   -12828.467 -2.2064526e-12 -1.9028032e-12 -2.9135993e-12    25.473612    25.728348    25.473612    16695.252 
-Loop time of 0.35457 on 1 procs for 59 steps with 1372 atoms
+Loop time of 0.349467 on 1 procs for 59 steps with 1372 atoms
 
-99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -590,13 +590,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.3494     | 0.3494     | 0.3494     |   0.0 | 98.54
-Bond    | 1.062e-05  | 1.062e-05  | 1.062e-05  |   0.0 |  0.00
+Pair    | 0.3442     | 0.3442     | 0.3442     |   0.0 | 98.49
+Bond    | 1.1165e-05 | 1.1165e-05 | 1.1165e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0013119  | 0.0013119  | 0.0013119  |   0.0 |  0.37
-Output  | 0.0013026  | 0.0013026  | 0.0013026  |   0.0 |  0.37
+Comm    | 0.0012938  | 0.0012938  | 0.0012938  |   0.0 |  0.37
+Output  | 0.0012998  | 0.0012998  | 0.0012998  |   0.0 |  0.37
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002543   |            |       |  0.72
+Other   |            | 0.00266    |            |       |  0.76
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -626,8 +626,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000122526 secs
-  read_restart CPU = 0.000469704 secs
+  special bonds CPU = 0.000117979 secs
+  read_restart CPU = 0.000482884 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -703,9 +703,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       53            0   -4503.4949    14502.097    12454.525    12454.525     18597.24 -1.1030442e-11 6.1309672e-12 -5.780453e-12    25.473612    25.473612    25.218876    16364.653 
       54            0   -4503.4949    14502.097    12454.525    12454.525     18597.24 -6.163576e-12 9.8544865e-12 1.2212706e-11    25.473612    25.473612    25.218876    16364.653 
       55            0   -4503.4949    14502.097    12454.525    12454.525     18597.24 -2.0582618e-12 2.2651239e-12 3.7089686e-13    25.473612    25.473612    25.218876    16364.653 
-Loop time of 0.32613 on 1 procs for 54 steps with 1372 atoms
+Loop time of 0.320215 on 1 procs for 54 steps with 1372 atoms
 
-99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -719,13 +719,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.3212     | 0.3212     | 0.3212     |   0.0 | 98.49
-Bond    | 1.165e-05  | 1.165e-05  | 1.165e-05  |   0.0 |  0.00
+Pair    | 0.31542    | 0.31542    | 0.31542    |   0.0 | 98.50
+Bond    | 7.726e-06  | 7.726e-06  | 7.726e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012661  | 0.0012661  | 0.0012661  |   0.0 |  0.39
-Output  | 0.0012334  | 0.0012334  | 0.0012334  |   0.0 |  0.38
+Comm    | 0.0011929  | 0.0011929  | 0.0011929  |   0.0 |  0.37
+Output  | 0.0012043  | 0.0012043  | 0.0012043  |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002415   |            |       |  0.74
+Other   |            | 0.002388   |            |       |  0.75
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -755,8 +755,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000120368 secs
-  read_restart CPU = 0.000575888 secs
+  special bonds CPU = 0.000152519 secs
+  read_restart CPU = 0.000587375 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -836,9 +836,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       57            0     -4503.58    -13933.84   -12828.467   -12828.467   -16144.586 5.6679563e-12 -7.6796338e-12 -1.4660864e-11    25.473612    25.473612    25.728348    16695.252 
       58            0     -4503.58    -13933.84   -12828.467   -12828.467   -16144.586 -1.2038768e-11 -2.7919433e-12 1.1692614e-11    25.473612    25.473612    25.728348    16695.252 
       59            0     -4503.58    -13933.84   -12828.467   -12828.467   -16144.586 2.0621193e-11 -4.2990367e-12 6.3779485e-12    25.473612    25.473612    25.728348    16695.252 
-Loop time of 0.350761 on 1 procs for 58 steps with 1372 atoms
+Loop time of 0.343423 on 1 procs for 58 steps with 1372 atoms
 
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -852,13 +852,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.34561    | 0.34561    | 0.34561    |   0.0 | 98.53
-Bond    | 1.3154e-05 | 1.3154e-05 | 1.3154e-05 |   0.0 |  0.00
+Pair    | 0.33824    | 0.33824    | 0.33824    |   0.0 | 98.49
+Bond    | 9.815e-06  | 9.815e-06  | 9.815e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0013177  | 0.0013177  | 0.0013177  |   0.0 |  0.38
-Output  | 0.0012841  | 0.0012841  | 0.0012841  |   0.0 |  0.37
+Comm    | 0.0012918  | 0.0012918  | 0.0012918  |   0.0 |  0.38
+Output  | 0.001307   | 0.001307   | 0.001307   |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002535   |            |       |  0.72
+Other   |            | 0.002577   |            |       |  0.75
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -888,8 +888,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000125036 secs
-  read_restart CPU = 0.000454472 secs
+  special bonds CPU = 0.000120342 secs
+  read_restart CPU = 0.000514643 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -966,9 +966,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       54            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 -2.6621482e-12 -7.8172965e-12    8454.8137    25.473612    25.473612    25.473612    16529.952 
       55            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 7.6558829e-12 1.4315373e-11    8454.8137    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 7.1763498e-12 -1.3422217e-11    8454.8137    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.330373 on 1 procs for 55 steps with 1372 atoms
+Loop time of 0.326741 on 1 procs for 55 steps with 1372 atoms
 
-99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -982,13 +982,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.32535    | 0.32535    | 0.32535    |   0.0 | 98.48
-Bond    | 1.2397e-05 | 1.2397e-05 | 1.2397e-05 |   0.0 |  0.00
+Pair    | 0.32172    | 0.32172    | 0.32172    |   0.0 | 98.46
+Bond    | 1.0009e-05 | 1.0009e-05 | 1.0009e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012281  | 0.0012281  | 0.0012281  |   0.0 |  0.37
-Output  | 0.0012472  | 0.0012472  | 0.0012472  |   0.0 |  0.38
+Comm    | 0.0012225  | 0.0012225  | 0.0012225  |   0.0 |  0.37
+Output  | 0.0013244  | 0.0013244  | 0.0013244  |   0.0 |  0.41
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002533   |            |       |  0.77
+Other   |            | 0.002462   |            |       |  0.75
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1018,8 +1018,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000122171 secs
-  read_restart CPU = 0.000551787 secs
+  special bonds CPU = 0.000117372 secs
+  read_restart CPU = 0.000628218 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -1096,9 +1096,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       54            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 -7.842013e-12 2.2241455e-12   -8454.8137    25.473612    25.473612    25.473612    16529.952 
       55            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 -2.011399e-11 -1.535111e-13   -8454.8137    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298     78.83644    170.04856    315.87396 1.2729484e-11 4.1116764e-12   -8454.8137    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.331363 on 1 procs for 55 steps with 1372 atoms
+Loop time of 0.325708 on 1 procs for 55 steps with 1372 atoms
 
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -1112,13 +1112,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.32638    | 0.32638    | 0.32638    |   0.0 | 98.50
-Bond    | 1.2326e-05 | 1.2326e-05 | 1.2326e-05 |   0.0 |  0.00
+Pair    | 0.32082    | 0.32082    | 0.32082    |   0.0 | 98.50
+Bond    | 1.0342e-05 | 1.0342e-05 | 1.0342e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012522  | 0.0012522  | 0.0012522  |   0.0 |  0.38
-Output  | 0.0012925  | 0.0012925  | 0.0012925  |   0.0 |  0.39
+Comm    | 0.0012289  | 0.0012289  | 0.0012289  |   0.0 |  0.38
+Output  | 0.001243   | 0.001243   | 0.001243   |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002427   |            |       |  0.73
+Other   |            | 0.002405   |            |       |  0.74
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1148,8 +1148,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000126482 secs
-  read_restart CPU = 0.000619248 secs
+  special bonds CPU = 0.000116871 secs
+  read_restart CPU = 0.000485247 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -1227,9 +1227,9 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       55            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 -7.1792082e-12    8454.8137 -6.294541e-12    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 -2.3289635e-11    8454.8137 5.0240056e-12    25.473612    25.473612    25.473612    16529.952 
       57            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 -7.5233892e-12    8454.8137 7.7858525e-12    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.336353 on 1 procs for 56 steps with 1372 atoms
+Loop time of 0.332576 on 1 procs for 56 steps with 1372 atoms
 
-99.1% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.4% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = force tolerance
@@ -1243,13 +1243,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.3313     | 0.3313     | 0.3313     |   0.0 | 98.50
-Bond    | 1.2442e-05 | 1.2442e-05 | 1.2442e-05 |   0.0 |  0.00
+Pair    | 0.32746    | 0.32746    | 0.32746    |   0.0 | 98.46
+Bond    | 1.1041e-05 | 1.1041e-05 | 1.1041e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012593  | 0.0012593  | 0.0012593  |   0.0 |  0.37
-Output  | 0.0012875  | 0.0012875  | 0.0012875  |   0.0 |  0.38
+Comm    | 0.0012468  | 0.0012468  | 0.0012468  |   0.0 |  0.37
+Output  | 0.0012792  | 0.0012792  | 0.0012792  |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002498   |            |       |  0.74
+Other   |            | 0.002583   |            |       |  0.78
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1279,8 +1279,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000120936 secs
-  read_restart CPU = 0.000732226 secs
+  special bonds CPU = 0.000117428 secs
+  read_restart CPU = 0.00081062 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -1358,7 +1358,7 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       55            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 1.0893067e-11   -8454.8137 7.3177492e-12    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 -1.7269579e-12   -8454.8137 6.6473884e-12    25.473612    25.473612    25.473612    16529.952 
       57            0   -4503.9996    188.25298    170.04856     78.83644    315.87396 2.2189164e-11   -8454.8137 -5.6925872e-12    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.336323 on 1 procs for 56 steps with 1372 atoms
+Loop time of 0.332843 on 1 procs for 56 steps with 1372 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1374,13 +1374,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.33131    | 0.33131    | 0.33131    |   0.0 | 98.51
-Bond    | 1.3036e-05 | 1.3036e-05 | 1.3036e-05 |   0.0 |  0.00
+Pair    | 0.32777    | 0.32777    | 0.32777    |   0.0 | 98.48
+Bond    | 1.1976e-05 | 1.1976e-05 | 1.1976e-05 |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012452  | 0.0012452  | 0.0012452  |   0.0 |  0.37
-Output  | 0.0012898  | 0.0012898  | 0.0012898  |   0.0 |  0.38
+Comm    | 0.0012456  | 0.0012456  | 0.0012456  |   0.0 |  0.37
+Output  | 0.0013027  | 0.0013027  | 0.0013027  |   0.0 |  0.39
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002464   |            |       |  0.73
+Other   |            | 0.002515   |            |       |  0.76
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1410,8 +1410,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000125119 secs
-  read_restart CPU = 0.000465881 secs
+  special bonds CPU = 0.000116618 secs
+  read_restart CPU = 0.000489717 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -1489,7 +1489,7 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       55            0   -4503.9996    188.25298    170.04856    315.87396     78.83644    8454.8137 -8.5599674e-13 4.292367e-12    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298    170.04856    315.87396     78.83644    8454.8137 -1.0550568e-11 -8.4484117e-12    25.473612    25.473612    25.473612    16529.952 
       57            0   -4503.9996    188.25298    170.04856    315.87396     78.83644    8454.8137 -8.7061645e-12 4.6055559e-12    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.338198 on 1 procs for 56 steps with 1372 atoms
+Loop time of 0.332357 on 1 procs for 56 steps with 1372 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1505,13 +1505,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.33315    | 0.33315    | 0.33315    |   0.0 | 98.51
-Bond    | 1.0544e-05 | 1.0544e-05 | 1.0544e-05 |   0.0 |  0.00
+Pair    | 0.32734    | 0.32734    | 0.32734    |   0.0 | 98.49
+Bond    | 8.831e-06  | 8.831e-06  | 8.831e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012762  | 0.0012762  | 0.0012762  |   0.0 |  0.38
-Output  | 0.001278   | 0.001278   | 0.001278   |   0.0 |  0.38
+Comm    | 0.0012552  | 0.0012552  | 0.0012552  |   0.0 |  0.38
+Output  | 0.0012837  | 0.0012837  | 0.0012837  |   0.0 |  0.39
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002483   |            |       |  0.73
+Other   |            | 0.002467   |            |       |  0.74
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -1541,8 +1541,8 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000122808 secs
-  read_restart CPU = 0.000499269 secs
+  special bonds CPU = 0.000120513 secs
+  read_restart CPU = 0.000621491 secs
 Changing box ...
   triclinic box = (-2.32233e-14 -2.32496e-14 -2.31862e-14) to (25.4736 25.4736 25.4736) with tilt (0 0 0)
 Changing box ...
@@ -1620,7 +1620,7 @@ Step Temp PotEng Press Pxx Pyy Pzz Pxy Pxz Pyz Lx Ly Lz Volume
       55            0   -4503.9996    188.25298    170.04856    315.87396     78.83644   -8454.8137 -2.5046017e-12 4.6902566e-12    25.473612    25.473612    25.473612    16529.952 
       56            0   -4503.9996    188.25298    170.04856    315.87396     78.83644   -8454.8137 1.0941155e-11 2.8519972e-12    25.473612    25.473612    25.473612    16529.952 
       57            0   -4503.9996    188.25298    170.04856    315.87396     78.83644   -8454.8137 6.2009742e-12 -5.3618734e-12    25.473612    25.473612    25.473612    16529.952 
-Loop time of 0.338361 on 1 procs for 56 steps with 1372 atoms
+Loop time of 0.332372 on 1 procs for 56 steps with 1372 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -1636,13 +1636,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.33336    | 0.33336    | 0.33336    |   0.0 | 98.52
-Bond    | 7.795e-06  | 7.795e-06  | 7.795e-06  |   0.0 |  0.00
+Pair    | 0.32733    | 0.32733    | 0.32733    |   0.0 | 98.48
+Bond    | 9.075e-06  | 9.075e-06  | 9.075e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0012556  | 0.0012556  | 0.0012556  |   0.0 |  0.37
-Output  | 0.001251   | 0.001251   | 0.001251   |   0.0 |  0.37
+Comm    | 0.0012587  | 0.0012587  | 0.0012587  |   0.0 |  0.38
+Output  | 0.0012683  | 0.0012683  | 0.0012683  |   0.0 |  0.38
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002489   |            |       |  0.74
+Other   |            | 0.002503   |            |       |  0.75
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

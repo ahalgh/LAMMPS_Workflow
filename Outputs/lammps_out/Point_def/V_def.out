@@ -8,7 +8,7 @@ Created orthogonal box = (-14.5563 -14.5563 -14.5563) to (14.5563 14.5563 14.556
   1 by 1 by 1 MPI processor grid
 Lattice spacing in x,y,z = 3.63909 3.63909 3.63909
 Created 2048 atoms
-  create_atoms CPU = 0.000366018 secs
+  create_atoms CPU = 0.000360445 secs
 WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (../min.cpp:168)
 Neighbor list info ...
   update every 1 steps, delay 0 steps, check yes
@@ -34,9 +34,9 @@ Per MPI rank memory allocation (min/avg/max) = 5.842 | 5.842 | 5.842 Mbytes
 Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms 
        0    -6723.822      29.1127      29.1127      29.1127 7.6930343e-09 7.6874263e-09 7.6894196e-09 7.7022569e-09    -6723.822 
        1    -6723.822      29.1127      29.1127      29.1127 7.6909196e-09 7.6850545e-09 7.6838182e-09 7.7038862e-09    -6723.822 
-Loop time of 0.0140817 on 1 procs for 1 steps with 2048 atoms
+Loop time of 0.0143386 on 1 procs for 1 steps with 2048 atoms
 
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+97.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
   Stopping criterion = energy tolerance
@@ -50,12 +50,12 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.013898   | 0.013898   | 0.013898   |   0.0 | 98.70
+Pair    | 0.014156   | 0.014156   | 0.014156   |   0.0 | 98.72
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 6.0889e-05 | 6.0889e-05 | 6.0889e-05 |   0.0 |  0.43
+Comm    | 6.0941e-05 | 6.0941e-05 | 6.0941e-05 |   0.0 |  0.43
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.0001228  |            |       |  0.87
+Other   |            | 0.000122   |            |       |  0.85
 
 Nlocal:    2048 ave 2048 max 2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -78,9 +78,9 @@ Setting up Verlet run ...
 Per MPI rank memory allocation (min/avg/max) = 4.842 | 4.842 | 4.842 Mbytes
 Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms 
        1    -6723.822      29.1127      29.1127      29.1127 7.6909196e-09 7.6850545e-09 7.6838182e-09 7.7038862e-09    -6723.822 
-Loop time of 5.52e-07 on 1 procs for 0 steps with 2048 atoms
+Loop time of 5.36e-07 on 1 procs for 0 steps with 2048 atoms
 
-181.2% CPU use with 1 MPI tasks x 1 OpenMP threads
+186.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -90,7 +90,7 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 5.52e-07   |            |       |100.00
+Other   |            | 5.36e-07   |            |       |100.00
 
 Nlocal:    2048 ave 2048 max 2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -106,7 +106,7 @@ Ave neighs/atom = 88
 Neighbor list builds = 0
 Dangerous builds = 0
 Created 1 atoms
-  create_atoms CPU = 6.978e-06 secs
+  create_atoms CPU = 7.572e-06 secs
 WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (../min.cpp:168)
 Setting up cg style minimization ...
   Unit style    : metal
@@ -118,7 +118,7 @@ Step PotEng Lx Ly Lz Press Pxx Pyy Pzz c_eatoms
       20   -6724.1247      29.1127      29.1127      29.1127    864.15822    864.15822    864.15822    864.15822   -6724.1247 
       30   -6724.1247      29.1127      29.1127      29.1127    864.16271    864.16271    864.16271    864.16271   -6724.1247 
       39   -6724.1247      29.1127      29.1127      29.1127    864.16282    864.16282    864.16282    864.16282   -6724.1247 
-Loop time of 0.360534 on 1 procs for 39 steps with 2049 atoms
+Loop time of 0.363122 on 1 procs for 39 steps with 2049 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -134,12 +134,12 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.35628    | 0.35628    | 0.35628    |   0.0 | 98.82
+Pair    | 0.35885    | 0.35885    | 0.35885    |   0.0 | 98.82
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0015408  | 0.0015408  | 0.0015408  |   0.0 |  0.43
-Output  | 0.00012567 | 0.00012567 | 0.00012567 |   0.0 |  0.03
+Comm    | 0.0015686  | 0.0015686  | 0.0015686  |   0.0 |  0.43
+Output  | 0.00012774 | 0.00012774 | 0.00012774 |   0.0 |  0.04
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.002591   |            |       |  0.72
+Other   |            | 0.002574   |            |       |  0.71
 
 Nlocal:    2049 ave 2049 max 2049 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

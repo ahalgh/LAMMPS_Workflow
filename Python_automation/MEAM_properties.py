@@ -129,7 +129,7 @@ def main():
         decorate(tab_length)
         print(' | {0:^20s} | {1:^20s} | {2:^20s} | {3:^20s} | {4:^20s} | {5:^20s} | {6:^20s} | {7:^20s} | {8:^20s} | '.format('Temperature [K]', 'Lat Parameter [Å]', 'C11 Constant [GPa]','C12 Constant [GPa]','C44 Constant [GPa]','Bulk Modulus [GPa]', 'Shear Mod 1 [GPa]','Shear Mod 2 [GPa]','Poisson Ratio'))
         decorate(tab_length)
-        print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(0,lat_const,Bulk_0K[0],Bulk_0K[1] ,Bulk_0K[2] ,Bulk_0K[3] ,Bulk_0K[4] ,Bulk_0K[5] ,Bulk_0K[6]))
+        #print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(0,lat_const,Bulk_0K[0],Bulk_0K[1] ,Bulk_0K[2] ,Bulk_0K[3] ,Bulk_0K[4] ,Bulk_0K[5] ,Bulk_0K[6]))
         for i in range(0,len(lat_temp)):
             if Temp[i] >= 300 and no_flag and not_in_temps:
                 no_flag = False
