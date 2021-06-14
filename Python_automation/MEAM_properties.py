@@ -65,7 +65,7 @@ def main():
         Bulk_finite[1:,i] = Bulk_prop(lat_temp[i,0])
         
 
-    Bulk_graph(Bulk_finite,potential)
+    Bulk_graph(Bulk_prop,potential)
     bulk_toc = time.perf_counter()
     
     #Initizing all these variables from indexes for readability

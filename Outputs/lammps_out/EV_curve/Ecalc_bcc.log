@@ -28,12 +28,12 @@ Created orthogonal box = (0 0 0) to (5.99 5.99 5.99)
   1 by 1 by 1 MPI processor grid
 create_atoms 1 box
 Created 2 atoms
-  create_atoms CPU = 0.00019065 secs
+  create_atoms CPU = 0.000196492 secs
 replicate 7 7 7
   orthogonal box = (0 0 0) to (41.93 41.93 41.93)
   1 by 1 by 1 MPI processor grid
   686 atoms
-  replicate CPU = 0.000117074 secs
+  replicate CPU = 0.000125862 secs
 
 #-------------- Define Interatomic potential------------------------------------------
 variable pairstyle file pairsty.txt
@@ -73,9 +73,9 @@ Neighbor list info ...
 Per MPI rank memory allocation (min/avg/max) = 3.131 | 3.131 | 3.131 Mbytes
 Step PotEng Lx Ly Lz Press c_eatoms 
        0   -76.580581        41.93        41.93        41.93   -14822.262   -76.580581 
-Loop time of 5.49e-07 on 1 procs for 0 steps with 686 atoms
+Loop time of 5.84e-07 on 1 procs for 0 steps with 686 atoms
 
-0.0% CPU use with 1 MPI tasks x 1 OpenMP threads
+171.2% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -85,7 +85,7 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 5.49e-07   |            |       |100.00
+Other   |            | 5.84e-07   |            |       |100.00
 
 Nlocal:    686 ave 686 max 686 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

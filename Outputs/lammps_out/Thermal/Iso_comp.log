@@ -27,7 +27,7 @@ Created orthogonal box = (0 0 0) to (3.64755 3.64755 3.64755)
   1 by 1 by 1 MPI processor grid
 create_atoms 1 box
 Created 4 atoms
-  create_atoms CPU = 0.00114739 secs
+  create_atoms CPU = 0.00116761 secs
 variable lat_size file lat_size.txt
 replicate ${lat_size} ${lat_size} ${lat_size}
 replicate 4 ${lat_size} ${lat_size}
@@ -40,8 +40,8 @@ replicate 4 4 4
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 6.8314e-05 secs
-  replicate CPU = 0.000353885 secs
+  special bonds CPU = 6.5207e-05 secs
+  replicate CPU = 0.00035681 secs
 
 # ---------- Define Interatomic Potential ---------------------------
 variable pairstyle file pairsty.txt
@@ -79,7 +79,7 @@ Per MPI rank memory allocation (min/avg/max) = 7.151 | 7.151 | 7.151 Mbytes
 Step Temp E_pair E_mol TotEng Press 
        0            0   -840.41035            0   -840.41035   -9998.1358 
        1            0   -840.41035            0   -840.41035   -9998.1358 
-Loop time of 0.00188029 on 1 procs for 1 steps with 256 atoms
+Loop time of 0.00187847 on 1 procs for 1 steps with 256 atoms
 
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
@@ -95,13 +95,13 @@ Minimization stats:
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.0018344  | 0.0018344  | 0.0018344  |   0.0 | 97.56
-Bond    | 1.95e-07   | 1.95e-07   | 1.95e-07   |   0.0 |  0.01
+Pair    | 0.0018335  | 0.0018335  | 0.0018335  |   0.0 | 97.61
+Bond    | 1.72e-07   | 1.72e-07   | 1.72e-07   |   0.0 |  0.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 2.0803e-05 | 2.0803e-05 | 2.0803e-05 |   0.0 |  1.11
+Comm    | 2.0743e-05 | 2.0743e-05 | 2.0743e-05 |   0.0 |  1.10
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 2.49e-05   |            |       |  1.32
+Other   |            | 2.405e-05  |            |       |  1.28
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -144,21 +144,21 @@ Step Lx PotEng KinEng TotEng Temp Press Density Enthalpy
      900    14.590196     -834.945    4.4245955    -830.5204    134.23592   -3120.9956    8.6974893   -836.57055 
     1000    14.590196   -836.09697    5.5761774    -830.5208    169.17328   -4036.7553    8.6974893   -838.34618 
     1001    14.590196   -836.16282    5.6419948   -830.52083    171.17008   -4043.6584    8.6974893   -838.35959 
-Loop time of 0.603684 on 1 procs for 1000 steps with 256 atoms
+Loop time of 0.594031 on 1 procs for 1000 steps with 256 atoms
 
-Performance: 143.121 ns/day, 0.168 hours/ns, 1656.496 timesteps/s
+Performance: 145.447 ns/day, 0.165 hours/ns, 1683.414 timesteps/s
 99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.5925     | 0.5925     | 0.5925     |   0.0 | 98.15
-Bond    | 3.7179e-05 | 3.7179e-05 | 3.7179e-05 |   0.0 |  0.01
+Pair    | 0.58285    | 0.58285    | 0.58285    |   0.0 | 98.12
+Bond    | 4.8379e-05 | 4.8379e-05 | 4.8379e-05 |   0.0 |  0.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0069145  | 0.0069145  | 0.0069145  |   0.0 |  1.15
-Output  | 0.00015513 | 0.00015513 | 0.00015513 |   0.0 |  0.03
-Modify  | 0.0021455  | 0.0021455  | 0.0021455  |   0.0 |  0.36
-Other   |            | 0.001928   |            |       |  0.32
+Comm    | 0.0068856  | 0.0068856  | 0.0068856  |   0.0 |  1.16
+Output  | 0.0001552  | 0.0001552  | 0.0001552  |   0.0 |  0.03
+Modify  | 0.0021707  | 0.0021707  | 0.0021707  |   0.0 |  0.37
+Other   |            | 0.001921   |            |       |  0.32
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -211,21 +211,21 @@ Step Lx PotEng KinEng TotEng Temp Press Density Enthalpy
     1900    14.601224   -831.59399    10.401137   -821.19285    315.55568   -871.58553    8.6777956   -822.88628 
     2000    14.604531    -830.3646    8.7712316   -821.59337    266.10667   -1286.8633    8.6719019   -824.09536 
     2001    14.605073   -830.41267    8.8218733   -821.59079    267.64307   -1480.6052    8.6709367   -824.46978 
-Loop time of 0.627238 on 1 procs for 1000 steps with 256 atoms
+Loop time of 0.62914 on 1 procs for 1000 steps with 256 atoms
 
-Performance: 137.747 ns/day, 0.174 hours/ns, 1594.292 timesteps/s
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 137.330 ns/day, 0.175 hours/ns, 1589.470 timesteps/s
+99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.6097     | 0.6097     | 0.6097     |   0.0 | 97.20
-Bond    | 5.4385e-05 | 5.4385e-05 | 5.4385e-05 |   0.0 |  0.01
+Pair    | 0.61162    | 0.61162    | 0.61162    |   0.0 | 97.22
+Bond    | 4.5638e-05 | 4.5638e-05 | 4.5638e-05 |   0.0 |  0.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0067801  | 0.0067801  | 0.0067801  |   0.0 |  1.08
-Output  | 0.00017483 | 0.00017483 | 0.00017483 |   0.0 |  0.03
-Modify  | 0.0085611  | 0.0085611  | 0.0085611  |   0.0 |  1.36
-Other   |            | 0.001963   |            |       |  0.31
+Comm    | 0.0069159  | 0.0069159  | 0.0069159  |   0.0 |  1.10
+Output  | 0.0001602  | 0.0001602  | 0.0001602  |   0.0 |  0.03
+Modify  | 0.0084682  | 0.0084682  | 0.0084682  |   0.0 |  1.35
+Other   |            | 0.001929   |            |       |  0.31
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -269,21 +269,21 @@ Step Lx PotEng KinEng TotEng Temp Press Density Enthalpy
     2900    14.581012   -831.56669     11.32688   -820.23981    343.64139    5498.0703    8.7139339   -809.60174 
     3000     14.55026   -828.98987    9.1412817   -819.84858    277.33346    16116.084    8.7693004   -788.86287 
     3001    14.550416   -828.95789    9.1042936    -819.8536     276.2113    16094.505    8.7690183   -788.90838 
-Loop time of 0.621795 on 1 procs for 1000 steps with 256 atoms
+Loop time of 0.625906 on 1 procs for 1000 steps with 256 atoms
 
-Performance: 138.952 ns/day, 0.173 hours/ns, 1608.246 timesteps/s
-99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 138.040 ns/day, 0.174 hours/ns, 1597.684 timesteps/s
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.60408    | 0.60408    | 0.60408    |   0.0 | 97.15
-Bond    | 6.3477e-05 | 6.3477e-05 | 6.3477e-05 |   0.0 |  0.01
+Pair    | 0.60822    | 0.60822    | 0.60822    |   0.0 | 97.17
+Bond    | 6.4834e-05 | 6.4834e-05 | 6.4834e-05 |   0.0 |  0.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0068328  | 0.0068328  | 0.0068328  |   0.0 |  1.10
-Output  | 0.00016696 | 0.00016696 | 0.00016696 |   0.0 |  0.03
-Modify  | 0.0087051  | 0.0087051  | 0.0087051  |   0.0 |  1.40
-Other   |            | 0.001947   |            |       |  0.31
+Comm    | 0.0069674  | 0.0069674  | 0.0069674  |   0.0 |  1.11
+Output  | 0.00015171 | 0.00015171 | 0.00015171 |   0.0 |  0.02
+Modify  | 0.0085559  | 0.0085559  | 0.0085559  |   0.0 |  1.37
+Other   |            | 0.001948   |            |       |  0.31
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -327,21 +327,21 @@ Step Lx PotEng KinEng TotEng Temp Press Density Enthalpy
     3900    14.605528   -830.55084    10.599669   -819.95117    321.57885    -119.3282    8.6701269   -820.18323 
     4000    14.673529   -831.75601    11.999514    -819.7565    364.04814   -22099.182    8.5501457   -863.33473 
     4001    14.673268   -831.79808    12.041306   -819.75677    365.31608   -22056.055    8.5506025   -863.24763 
-Loop time of 0.63061 on 1 procs for 1000 steps with 256 atoms
+Loop time of 0.630851 on 1 procs for 1000 steps with 256 atoms
 
-Performance: 137.010 ns/day, 0.175 hours/ns, 1585.767 timesteps/s
+Performance: 136.958 ns/day, 0.175 hours/ns, 1585.160 timesteps/s
 99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.61301    | 0.61301    | 0.61301    |   0.0 | 97.21
-Bond    | 5.1796e-05 | 5.1796e-05 | 5.1796e-05 |   0.0 |  0.01
+Pair    | 0.61322    | 0.61322    | 0.61322    |   0.0 | 97.21
+Bond    | 5.7594e-05 | 5.7594e-05 | 5.7594e-05 |   0.0 |  0.01
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.0068545  | 0.0068545  | 0.0068545  |   0.0 |  1.09
-Output  | 0.00015403 | 0.00015403 | 0.00015403 |   0.0 |  0.02
-Modify  | 0.0085688  | 0.0085688  | 0.0085688  |   0.0 |  1.36
-Other   |            | 0.001974   |            |       |  0.31
+Comm    | 0.006923   | 0.006923   | 0.006923   |   0.0 |  1.10
+Output  | 0.00015548 | 0.00015548 | 0.00015548 |   0.0 |  0.02
+Modify  | 0.0085483  | 0.0085483  | 0.0085483  |   0.0 |  1.36
+Other   |            | 0.001945   |            |       |  0.31
 
 Nlocal:    256 ave 256 max 256 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

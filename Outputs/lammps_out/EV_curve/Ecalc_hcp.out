@@ -7,12 +7,12 @@ Lattice spacing in x,y,z = 5.99 10.375 9.78163
 Created orthogonal box = (0 0 0) to (5.99 10.375 9.78163)
   1 by 1 by 1 MPI processor grid
 Created 4 atoms
-  create_atoms CPU = 0.00018754 secs
+  create_atoms CPU = 0.000195944 secs
 Replicating atoms ...
   orthogonal box = (0 0 0) to (41.93 72.6249 68.4714)
   1 by 1 by 1 MPI processor grid
   1372 atoms
-  replicate CPU = 0.000168281 secs
+  replicate CPU = 0.000166588 secs
 WARNING: No fixes defined, atoms won't move (../verlet.cpp:55)
 Neighbor list info ...
   update every 1 steps, delay 10 steps, check yes
@@ -33,9 +33,9 @@ Setting up Verlet run ...
 Per MPI rank memory allocation (min/avg/max) = 3.188 | 3.188 | 3.188 Mbytes
 Step PotEng Lx Ly Lz Press c_eatoms 
        0 -2.2952297e-05        41.93     72.62489    68.471403  -0.13942952 -2.2952297e-05 
-Loop time of 5.31e-07 on 1 procs for 0 steps with 1372 atoms
+Loop time of 6.59e-07 on 1 procs for 0 steps with 1372 atoms
 
-188.3% CPU use with 1 MPI tasks x 1 OpenMP threads
+151.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -45,7 +45,7 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 5.31e-07   |            |       |100.00
+Other   |            | 6.59e-07   |            |       |100.00
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
