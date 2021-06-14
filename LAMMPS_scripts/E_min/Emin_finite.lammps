@@ -1,3 +1,4 @@
+log debug.log append
 # ---------- Initialize Simulation --------------------- 
 units metal 
 dimension 3 

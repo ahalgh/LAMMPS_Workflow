@@ -1,7 +1,7 @@
 #Graphing all graphing modules for MEAM_properties.py
 
 #Function for graphing Energy volume curves
-def Ev_graph(Ev_mat):
+def Ev_graph(Ev_mat,potential):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -12,6 +12,7 @@ def Ev_graph(Ev_mat):
 
 
     #def main():
+    print(Ev_mat)
     Length = Ev_mat[:, 0]
     fcc = Ev_mat[:, 1]
     bcc = Ev_mat[:, 2]
@@ -104,14 +105,14 @@ def Ev_graph(Ev_mat):
     plt.plot(frac_hcp, hcp_Edel)
     plt.legend(['FCC', 'BCC', 'SC', 'HCP'])
     #Need to make graph labels not hard coded
-    plt.xlabel('V/V0_fcc')
+    plt.xlabel('V/V0_stablephase')
     plt.ylabel('DelE [eV]')
-    plt.title('Potential Crystal Structure Stability')
+    plt.title(potential,'Crystal Structure Stability')
     plt.grid()
     plt.savefig(out_file)
 
 #Function for graphing Bulk properties with respect to temperature
-def Bulk_graph(bulk_finite):
+def Bulk_graph(bulk_finite,potential):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -126,6 +127,7 @@ def Bulk_graph(bulk_finite):
     Shear_mod1 = bulk_finite[5,:]
     Shear_mod2 = bulk_finite[6,:]
     Poisson_R = bulk_finite[7,:]
+    print(bulk_finite)
     
     
     #Plotting figure 1, Elastic Constants of Potential with respect to temperature
@@ -137,7 +139,7 @@ def Bulk_graph(bulk_finite):
     plt.legend(['C11', 'C12', 'C44'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Elastic constants [GPa]')
-    plt.title('Elastic Constant of Al1 over Temperature')
+    plt.title('Elastic Constant of',potential,'over Temperature')
     plt.grid()
     plt.savefig(out_file)
     
@@ -150,7 +152,7 @@ def Bulk_graph(bulk_finite):
     plt.legend(['Bulk Modulus', 'Shear Modulus 1', 'Shear Modulus 2'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Elastic Properties [GPa]')
-    plt.title('Elastic Properties of Al1 over Temperature')
+    plt.title('Elastic Properties of',potential,'over Temperature')
     plt.grid()
     plt.savefig(out_file)
     
@@ -161,12 +163,12 @@ def Bulk_graph(bulk_finite):
     plt.legend(['Poisson Ratio'])
     plt.xlabel('Temperature [K]')
     plt.ylabel('Poisson Ratio')
-    plt.title('Poisson Ratio of Al1 over Temperature')
+    plt.title('Poisson Ratio of',potential,'over Temperature')
     plt.grid()
     plt.savefig(out_file)
 
 #Function for graphin graphing the lattice constant with respect to temperature    
-def Finite_graph(lat_temp):
+def Finite_graph(lat_temp,potential):
     import matplotlib
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
@@ -182,6 +184,6 @@ def Finite_graph(lat_temp):
     plt.plot(Temp, lat)
     plt.ylabel('Equilibrated Lattice constant [A]')
     plt.xlabel('Temperature [K]')
-    plt.title('Lattice Constant of Al1 over Temperature')
+    plt.title('Lattice Constant of',potential,' over Temperature')
     plt.grid()
     plt.savefig(out_file)    

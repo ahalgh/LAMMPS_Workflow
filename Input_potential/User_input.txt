@@ -5,22 +5,22 @@
 # 
 ######################################################################
 Output file Name:
-Al1_pot_properties.txt
+Cu1_pot_properties.txt
 ######################################################################
 Interatomic Potential File:
-Al1.eam.fs
+Cu1.eam.fs
 ######################################################################
 Potential File Type (pair_style in LAMMPS):
 eam/fs
 ###################################################################### 
 Species Type:
-Al
+Cu
 ######################################################################
 Stable Structure (fcc,bcc,sc,hcp):
 fcc
 ######################################################################
 Initial Guess for Lattice Constant (Å):
-4.00
+3.60
 ######################################################################
 Temperature Range for Bulk Properties (temp_low,temp_high,temp_del):
 1.0,1502.0,300

@@ -28,12 +28,12 @@ Created orthogonal box = (0 0 0) to (5.99 5.99 5.99)
   1 by 1 by 1 MPI processor grid
 create_atoms 1 box
 Created 4 atoms
-  create_atoms CPU = 0.000192995 secs
+  create_atoms CPU = 0.000188276 secs
 replicate 7 7 7
   orthogonal box = (0 0 0) to (41.93 41.93 41.93)
   1 by 1 by 1 MPI processor grid
   1372 atoms
-  replicate CPU = 0.000169082 secs
+  replicate CPU = 0.000178496 secs
 
 #-------------- Define Interatomic potential------------------------------------------
 variable pairstyle file pairsty.txt
@@ -42,8 +42,8 @@ pair_style eam/fs
 variable potential file potential.txt
 variable type file type.txt
 pair_coeff * * ${potential} ${type}
-pair_coeff * * Al1.eam.fs ${type}
-pair_coeff * * Al1.eam.fs Al
+pair_coeff * * Cu1.eam.fs ${type}
+pair_coeff * * Cu1.eam.fs Cu
 neighbor 2.0 bin
 neigh_modify delay 10 check yes
 
@@ -61,21 +61,21 @@ WARNING: No fixes defined, atoms won't move (../verlet.cpp:55)
 Neighbor list info ...
   update every 1 steps, delay 10 steps, check yes
   max neighbors/atom: 2000, page size: 100000
-  master list distance cutoff = 8.5
-  ghost atom cutoff = 8.5
-  binsize = 4.25, bins = 10 10 10
+  master list distance cutoff = 8
+  ghost atom cutoff = 8
+  binsize = 4, bins = 11 11 11
   1 neighbor lists, perpetual/occasional/extra = 1 0 0
   (1) pair eam/fs, perpetual
       attributes: half, newton on
       pair build: half/bin/atomonly/newton
       stencil: half/bin/3d/newton
       bin: standard
-Per MPI rank memory allocation (min/avg/max) = 3.207 | 3.207 | 3.207 Mbytes
+Per MPI rank memory allocation (min/avg/max) = 3.21 | 3.21 | 3.21 Mbytes
 Step PotEng Lx Ly Lz Press c_eatoms 
-       0   -2059.2787        41.93        41.93        41.93   -57796.443   -2059.2787 
-Loop time of 6.07e-07 on 1 procs for 0 steps with 1372 atoms
+       0   -1061.6335        41.93        41.93        41.93   -29231.082   -1061.6335 
+Loop time of 5.7e-07 on 1 procs for 0 steps with 1372 atoms
 
-164.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+175.4% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
@@ -85,17 +85,17 @@ Neigh   | 0          | 0          | 0          |   0.0 |  0.00
 Comm    | 0          | 0          | 0          |   0.0 |  0.00
 Output  | 0          | 0          | 0          |   0.0 |  0.00
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 6.07e-07   |            |       |100.00
+Other   |            | 5.7e-07    |            |       |100.00
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
 Nghost:    2058 ave 2058 max 2058 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
-Neighs:    37044 ave 37044 max 37044 min
+Neighs:    28812 ave 28812 max 28812 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
 
-Total # of neighbors = 37044
-Ave neighs/atom = 27
+Total # of neighbors = 28812
+Ave neighs/atom = 21
 Neighbor list builds = 0
 Dangerous builds = 0
 
@@ -106,20 +106,20 @@ variable length equal "lx"
 variable ecoh equal "v_teng/v_natoms"
 
 print "Total energy (eV) = ${teng};"
-Total energy (eV) = -2059.27872308071;
+Total energy (eV) = -1061.6334548389;
 print "Number of atoms = ${natoms};"
 Number of atoms = 1372;
 print "Lattice constant (Angstoms) = ${length};"
 Lattice constant (Angstoms) = 41.9299999999994;
 print "Cohesive energy (eV) = ${ecoh};"
-Cohesive energy (eV) = -1.50093201390722;
+Cohesive energy (eV) = -0.773785316937974;
 #Alone on line for easy read in
 print "${ecoh}"
--1.50093201390722
+-0.773785316937974
 print "All done!"
 All done!
 print "${length}" file length.txt
 41.9299999999994
 print "${ecoh}" file ecoh_fcc.txt
--1.50093201390722
+-0.773785316937974
 Total wall time: 0:00:00

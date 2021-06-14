@@ -48,7 +48,7 @@ def main():
         Var_txt(lat_room,"lat_const.txt")
         Bulk_room = Bulk_prop(room_temp)
         not_in_temps = True
-        
+        print(Bulk_room)
     
     Finite_graph(lat_temp)
     
@@ -129,11 +129,11 @@ def main():
         decorate(tab_length)
         print(' | {0:^20s} | {1:^20s} | {2:^20s} | {3:^20s} | {4:^20s} | {5:^20s} | {6:^20s} | {7:^20s} | {8:^20s} | '.format('Temperature [K]', 'Lat Parameter [Å]', 'C11 Constant [GPa]','C12 Constant [GPa]','C44 Constant [GPa]','Bulk Modulus [GPa]', 'Shear Mod 1 [GPa]','Shear Mod 2 [GPa]','Poisson Ratio'))
         decorate(tab_length)
-        #print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(Bulk_0K[0,0],lat_const,Bulk_0K[1,0] ,Bulk_0K[2,0] ,Bulk_0K[3,0] ,Bulk_0K[4,0] ,Bulk_0K[5,0] ,Bulk_0K[6,0], Bulk_0K[7,0]))
+        print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(0,lat_const,Bulk_0K[0],Bulk_0K[1] ,Bulk_0K[2] ,Bulk_0K[3] ,Bulk_0K[4] ,Bulk_0K[5] ,Bulk_0K[6]))
         for i in range(0,len(lat_temp)):
             if Temp[i] >= 300 and no_flag and not_in_temps:
                 no_flag = False
-                print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(Bulk_room[0,0],lat_room[0,0],Bulk_room[1,0] ,Bulk_room[2,0] ,Bulk_room[3,0] ,Bulk_room[4,0] ,Bulk_room[5,0] ,Bulk_room[6,0], Bulk_room[7,0]))
+                print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(300,lat_room,Bulk_room[0],Bulk_room[1] ,Bulk_room[2] ,Bulk_room[3] ,Bulk_room[4] ,Bulk_room[5] ,Bulk_room[6]))
             print(' | {0:^20f} | {1:^20f} | {2:^20f} | {3:^20f} | {4:^20f} | {5:^20f} | {6:^20f} | {7:^20f} | {8:^20f} | '.format(Temp[i],lattice[i],C11[i] ,C12[i] ,C44[i] ,Bulk_mod[i] ,Shear_mod1[i] ,Shear_mod2 [i], Poisson_R[i]))
         decorate(tab_length)
         print(f'\nTook {bulk_toc - finite_tic:0.4f} seconds, Total: {bulk_toc - Full_tic:0.4f}\n')
@@ -142,29 +142,37 @@ def main():
         decorate(30)
         print("Vacancy: ",Vac_Energy,"\nInterstitial: ",Int_Energy,f"\nTook {def_toc - def_tic:0.4f} seconds, Total: {def_toc - Full_tic:0.4f}\n")
         
+        print("Transport Properties:")
+        decorate(30)
+        print("Thermal Conductivity: ",cond,f"\nTook {cond_toc - cond_tic:0.4f} seconds, Total: {cond_toc - Full_tic:0.4f} seconds\n")
+        
         print("Thermal Properties:")
         decorate(30)
-        print("Thermal Conductivity: ",cond,f"\nTook {cond_toc - cond_tic:0.4f} seconds, Total: {cond_toc - Full_tic:0.4f} seconds")
-        
         print("Thermal Expansivity: ",Therm_exp," [1/K]\nIsothermal Compressibility: ",B,"[1/bar]\nSpecific Heat Capacity: ",SpecificH,f" [J/mol*K]\nTook {comp_toc - Exp_tic:0.4f} seconds, Total: {comp_toc - Full_tic:0.4f}\n")
         sys.stdout = sys.stdout
     
-    os.remove('lattice_guess.txt')
-    os.remove('potential.txt')
-    os.remove('type.txt')
-    os.remove('stable.txt')
-    os.remove('pairsty.txt')
-    os.remove('lat_size.txt')
-    os.remove('pres.txt')
-    os.remove('deltapres.txt')
-    os.remove("lat_temp.txt")
-    os.remove("temp.txt")
-    os.remove("timesteplength.txt")
-    os.remove("deltatemp.txt")
-    os.remove("lat_const.txt")
-    os.remove("BulkProp_0K.txt")
-    os.remove("BulkProp_finite.txt")
-    os.remove("constant.txt")
+    global txt_list
+    txt_list.add('BulkProp_0K.txt')
+    txt_list.add('BulkProp_finite.txt')
+    for i in txt_list:
+        os.remove(i)
+        
+    #os.remove('lattice_guess.txt')
+    #os.remove('potential.txt')
+    #os.remove('type.txt')
+    #os.remove('stable.txt')
+    #os.remove('pairsty.txt')
+    #os.remove('lat_size.txt')
+    #os.remove('pres.txt')
+    #os.remove('deltapres.txt')
+    #os.remove("lat_temp.txt")
+    #os.remove("temp.txt")
+    #os.remove("timesteplength.txt")
+    #os.remove("deltatemp.txt")
+    #os.remove("lat_const.txt")
+    #os.remove("BulkProp_0K.txt")
+    #os.remove("BulkProp_finite.txt")
+    #os.remove("constant.txt")
     
     
     
@@ -405,6 +413,10 @@ def Lmps_txt2var(var_file):
 
 #Create txt file with variable
 def Var_txt(val,fname):
+    
+    global txt_list
+    txt_list.add(fname)
+    print(txt_list)
     file = open(fname, "w+")
     file.write(str(val)+' ')
     file.close()
@@ -441,6 +453,8 @@ def Read_input_file(file):
             elif 'Output file Name:' in line:
                 fout_name = f.readline()
     return potential,pair_style,Type,stable_structure,lattice_guess,float(temp_low),float(temp_high),float(temp_del),deltatemp,deltapres,NPTstep,lat_size,fout_name
+
+txt_list =  set()
 
 if __name__ == '__main__':
     main()

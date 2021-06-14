@@ -1,30 +1,445 @@
-Al1_pot_properties.txt
+Cu1_pot_properties.txt
 
+{'pairsty.txt'}
+{'lattice_guess.txt', 'pairsty.txt'}
+{'lattice_guess.txt', 'pairsty.txt', 'potential.txt'}
+{'lattice_guess.txt', 'pairsty.txt', 'potential.txt', 'type.txt'}
+{'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
 Minimization started!
   Optimizing Lattice...
   Lattice Minimization @ 0 K Success!
 Finite Temp Optimization started!
 
   Running with Temperature of 1.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Running with Temperature of 301.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Running with Temperature of 601.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Running with Temperature of 901.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Running with Temperature of 1201.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Running with Temperature of 1501.0 [K]
+{'lat_temp.txt', 'potential.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   Lattice Optimization @ finite Temps Success!
+{'lat_temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
 Energy/Volume Curve Calculation started!
   Calculating E/V curves..
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
   E/V Curve Calculation Successful!
-[-3.41060803991658, -3.30882839414773, -3.09823801262198, -3.38207904796185] 4.049999999999957 -3.41060803991658
+[-3.28311315609236, -3.24258916964526, -2.66218782056524, -3.27622517735341] 3.6399999999999717 -3.28311315609236
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
 Point Defect Calculations started!
   Calculating Point Defect Energies...
   Point Defect Energy Calculation Successful!
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
 Thermal Conductivity Calculation Begun!
   Calculating...
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
 Thermal Conductivity Calculation Success!
 Thermal Expansivity and Specific Heat Calculation Begun!
   Calculating...
+{'lat_temp.txt', 'constant.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
 Thermal Expansivity and Specific Heat Calculation Success!
 Isothermal Compressibility Calculation Begun!
   Calculating...
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'deltapres.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'deltapres.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'potential.txt', 'deltapres.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
+{'lat_temp.txt', 'constant.txt', 'timesteplength.txt', 'temp.txt', 'pres.txt', 'potential.txt', 'deltapres.txt', 'lat_const.txt', 'deltatemp.txt', 'type.txt', 'stable.txt', 'lattice_guess.txt', 'pairsty.txt', 'lat_size.txt'}
 Isothermal Compressibility Calculation Success!

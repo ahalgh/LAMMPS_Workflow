@@ -2,13 +2,13 @@ LAMMPS (30 Apr 2019)
 OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (../comm.cpp:88)
   using 1 OpenMP thread(s) per MPI task
 Starting Energy Min
-Lattice spacing in x,y,z = 4 4 4
-Created orthogonal box = (0 0 0) to (4 4 4)
+Lattice spacing in x,y,z = 3.6 3.6 3.6
+Created orthogonal box = (0 0 0) to (3.6 3.6 3.6)
   1 by 1 by 1 MPI processor grid
 Created 4 atoms
-  create_atoms CPU = 0.00121972 secs
+  create_atoms CPU = 0.00122112 secs
 Replicating atoms ...
-  orthogonal box = (0 0 0) to (28 28 28)
+  orthogonal box = (0 0 0) to (25.2 25.2 25.2)
   1 by 1 by 1 MPI processor grid
   1372 atoms
 Finding 1-2 1-3 1-4 neighbors ...
@@ -18,15 +18,15 @@ Finding 1-2 1-3 1-4 neighbors ...
   0 = max # of 1-3 neighbors
   0 = max # of 1-4 neighbors
   1 = max # of special neighbors
-  special bonds CPU = 0.000150091 secs
-  replicate CPU = 0.000585104 secs
+  special bonds CPU = 0.000149074 secs
+  replicate CPU = 0.000585669 secs
 WARNING: Using 'neigh_modify every 1 delay 0 check yes' setting during minimization (../min.cpp:168)
 Neighbor list info ...
   update every 1 steps, delay 0 steps, check yes
   max neighbors/atom: 2000, page size: 100000
-  master list distance cutoff = 8.5
-  ghost atom cutoff = 8.5
-  binsize = 4.25, bins = 7 7 7
+  master list distance cutoff = 8
+  ghost atom cutoff = 8
+  binsize = 4, bins = 7 7 7
   1 neighbor lists, perpetual/occasional/extra = 1 0 0
   (1) pair eam/fs, perpetual
       attributes: half, newton on
@@ -39,32 +39,32 @@ Setting up cg style minimization ...
 WARNING: Energy due to 1 extra global DOFs will be included in minimizer energies
 Per MPI rank memory allocation (min/avg/max) = 7.722 | 7.722 | 7.722 Mbytes
 Step PotEng Lx Ly Lz Press Pxx Pyy Pzz PotEng 
-       0   -4672.7064           28           28           28    30165.987    30165.987    30165.987    30165.987   -4672.7064 
-      10   -4679.3367        28.28        28.28        28.28    3080.0363    3080.0363    3080.0363    3080.0363   -4679.3367 
-      16   -4679.4213    28.316819    28.316819    28.316819 -0.0012510542 -0.0012510542 -0.0012510542 -0.0012510542   -4679.4213 
-Loop time of 0.0725264 on 1 procs for 16 steps with 1372 atoms
+       0   -4496.8886         25.2         25.2         25.2    48195.375    48195.375    48195.375    48195.375   -4496.8886 
+      10   -4504.3876       25.452       25.452       25.452    3640.9033    3640.9033    3640.9033    3640.9033   -4504.3876 
+      15   -4504.4354    25.473612    25.473612    25.473612 -2.4280524e-10 -2.4269281e-10 -2.4025581e-10 -2.4546711e-10   -4504.4354 
+Loop time of 0.0671105 on 1 procs for 15 steps with 1372 atoms
 
-97.4% CPU use with 1 MPI tasks x 1 OpenMP threads
+99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 Minimization stats:
-  Stopping criterion = linesearch alpha is zero
+  Stopping criterion = energy tolerance
   Energy initial, next-to-last, final = 
-        -4672.70642806     -4679.42134051     -4679.42134051
-  Force two-norm initial, final = 1239.95 5.25937e-05
-  Force max component initial, final = 1239.95 5.25937e-05
-  Final line search alpha, max atom move = 0.5 2.62969e-05
-  Iterations, force evaluations = 16 22
+        -4496.88856881     -4504.43543897     -4504.43543897
+  Force two-norm initial, final = 1444.17 7.45563e-12
+  Force max component initial, final = 1444.17 7.43448e-12
+  Final line search alpha, max atom move = 1 7.43448e-12
+  Iterations, force evaluations = 15 20
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 0.070256   | 0.070256   | 0.070256   |   0.0 | 96.87
-Bond    | 2.342e-06  | 2.342e-06  | 2.342e-06  |   0.0 |  0.00
+Pair    | 0.064996   | 0.064996   | 0.064996   |   0.0 | 96.85
+Bond    | 2.417e-06  | 2.417e-06  | 2.417e-06  |   0.0 |  0.00
 Neigh   | 0          | 0          | 0          |   0.0 |  0.00
-Comm    | 0.00035537 | 0.00035537 | 0.00035537 |   0.0 |  0.49
-Output  | 2.4425e-05 | 2.4425e-05 | 2.4425e-05 |   0.0 |  0.03
+Comm    | 0.0003239  | 0.0003239  | 0.0003239  |   0.0 |  0.48
+Output  | 2.3552e-05 | 2.3552e-05 | 2.3552e-05 |   0.0 |  0.04
 Modify  | 0          | 0          | 0          |   0.0 |  0.00
-Other   |            | 0.001888   |            |       |  2.60
+Other   |            | 0.001765   |            |       |  2.63
 
 Nlocal:    1372 ave 1372 max 1372 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -80,12 +80,12 @@ Neighbor list builds = 0
 Dangerous builds = 0
 
 -------------------------------
-Total energy (eV) = -4679.42134050724;
+Total energy (eV) = -4504.43543896511;
 Number of atoms = 1372;
-Lattice constant (Angstoms) = 28.316818569733;
-Lattice constant (Angstoms) of single unit cell = 4.04525979567614;
-Cohesive energy (eV) = -3.41065695372248;
+Lattice constant (Angstoms) = 25.4736121990833;
+Lattice constant (Angstoms) of single unit cell = 3.6390874570119;
+Cohesive energy (eV) = -3.28311620915824;
 All done!
 -------------------------------
-4.04525979567614
+3.6390874570119
 Total wall time: 0:00:00
