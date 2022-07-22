@@ -58,7 +58,7 @@ the resulting values
 ### Example Output
 
 #### Potential Energy Curves Graph
-![Ev curve](/Outputs/Graphs/EV_Curves.png)
+![Ev curve](/Outputs/Graphs/Ev_Curves.png)
 
 Workflow calculation of the potential energy curves of the Al1_eam.fs potential, FCC phase is the minimum energy phase, followed by HCP. In line with other theoretical and experimental [results](https://www.ctcms.nist.gov/potentials/entry/2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Al/EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005.html). 
 
