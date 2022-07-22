@@ -55,17 +55,19 @@ the resulting values
 ```
 
 
-### Example Output
+## Example Output
 
-#### Potential Energy Curves Graph
+### Potential Energy Curves Graph
 ![Ev curve](/Outputs/Graphs/Ev_Curves.png)
 
 Workflow calculation of the potential energy curves of the Al1_eam.fs potential, FCC phase is the minimum energy phase, followed by HCP. In line with other theoretical and experimental [results](https://www.ctcms.nist.gov/potentials/entry/2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Al/EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005.html). 
 
-#### Elastic Constants over Temperature graph
-![Elastic Curve](/Outputs/Graphs/Elastic.png)
+### Elastic Constants over Temperature graph
+![Elastic Curve](/Outputs/Graphs/Elastic_finiteT.png)
 
 Results confirmed by [potential paper](https://www.tandfonline.com/doi/abs/10.1080/14786430802206482)
+
+### Example output.txt file
 ```
 Properties of  Al1.eam.fs Potential File:
 
