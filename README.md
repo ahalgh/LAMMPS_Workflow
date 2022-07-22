@@ -2,14 +2,11 @@
 Python Automation of LAMMPS Workflow, for automated testing of developed interatomic potentials
 https://www.lammps.org/
 
-This is an older version of the workflow, new version has various updates to structure and features but code will remain private
-
-
 Author: Alex Greenhalgh
 
 Date: 5/30/2021
 
-Contact: agreenh1@vols.utk.edu, (865)456-1554
+Contact: agreenh1@vols.utk.edu, (865) 456-1554
  
 
 The MEAM_workflow directory determines various thermodynamic and structural properties of an interatomic potential file
@@ -59,6 +56,16 @@ the resulting values
 
 
 ### Example Output
+
+#### Potential Energy Curves Graph
+![Ev curve](/Outputs/Graphs/EV_Curves.png)
+
+Workflow calculation of the potential energy curves of the Al1_eam.fs potential, FCC phase is the minimum energy phase, followed by HCP. In line with other theoretical and experimental [results](https://www.ctcms.nist.gov/potentials/entry/2008--Mendelev-M-I-Kramer-M-J-Becker-C-A-Asta-M--Al/EAM_Dynamo_MendelevKramerBecker_2008_Al__MO_106969701023_005.html). 
+
+#### Elastic Constants over Temperature graph
+![Elastic Curve](/Outputs/Graphs/Elastic.png)
+
+Results confirmed by [potential paper](https://www.tandfonline.com/doi/abs/10.1080/14786430802206482)
 ```
 Properties of  Al1.eam.fs Potential File:
 
@@ -98,3 +105,5 @@ Isothermal Compressibility:  1.3092424781487365e-06 [1/bar]
 Specific Heat Capacity:  20.59811469658918  [J/mol*K]
 Took 4.8566 seconds, Total: 1010.0433
 ```
+
+This is an older version of the workflow, new version has various updates to structure and features but code will remain private to insure research integrity. Inflexible LAMMPS scripts replaced with all python.
