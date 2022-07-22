@@ -23,7 +23,7 @@ the resulting values
  |
  +-- README.txt
  |    
- +-- Workflow_job: Job file to submit to HPC cluster, loads python and lammps, assigns envmental variable LAMMPS_POTENTIALS with location of Input_potential directory so potential can be found
+ +-- Workflow_job: Job file to submit to HPC cluster, loads python and lammps, assigns environmental variable LAMMPS_POTENTIALS with location of Input_potential directory so potential can be found
  |     
  +-- Input_potential
  |  |  
