@@ -20,6 +20,7 @@ Workflow_job calls the MEAM_prop.py python script, which takes care of calling a
 
 the resulting values
 
+### Repository Structure
 ```
 /MEAM_workflow
  |
@@ -54,4 +55,46 @@ the resulting values
  |  |  
  |  |-- Graphs: Contains all the graphs from pygraphs
  |  |-- lammps_output: Same format as lammps scripts, containing .out and .log files from lammps scripts
+```
+
+
+### Example Output
+```
+Properties of  Al1.eam.fs Potential File:
+
+
+Lattice minimization @ 0 [K]:
+##############################
+Lattice Constant:  4.04525979567614 
+Took 0.2927 seconds, Total: 0.2927
+
+Lattice Constant and Elastic Properties Over Temperature:
+
+##################################################################################################################################################################################################################
+ |   Temperature [K]    |  Lat Parameter [Å]   |  C11 Constant [GPa]  |  C12 Constant [GPa]  |  C44 Constant [GPa]  |  Bulk Modulus [GPa]  |  Shear Mod 1 [GPa]   |  Shear Mod 2 [GPa]   |    Poisson Ratio     | 
+##################################################################################################################################################################################################################
+ |       0.988816       |       4.045383       |      113.983634      |      62.541122       |      33.024655       |      79.688432       |      33.025045       |      25.722347       |       0.354285       | 
+ |      299.882376      |       4.072969       |      111.834429      |      67.151127       |      36.718621       |      81.930444       |      36.876705       |      22.459545       |       0.374411       | 
+ |      598.897613      |       4.103480       |      94.219676       |      60.903695       |      32.676751       |      72.295390       |      31.806312       |      16.858392       |       0.391815       | 
+ |      933.051507      |       4.129543       |      65.459723       |      45.789491       |      22.579135       |      53.138101       |      22.416227       |       9.803909       |       0.413095       | 
+ |     1177.098764      |       4.255623       |      33.892830       |      31.537863       |       2.086264       |      31.669588       |       1.712945       |       0.317374       |       0.495006       | 
+ |     1522.332848      |       4.303088       |      29.006566       |      29.537245       |       2.453833       |      27.766444       |       1.512414       |       0.451758       |       0.491909       | 
+##################################################################################################################################################################################################################
+
+Took 671.0261 seconds, Total: 671.3189
+
+Energies of Defect Formation:
+##############################
+Vacancy:  0.658443173931119 
+Interstitial:  2.42449686762939 
+Took 1.3389 seconds, Total: 916.6873
+
+Thermal Properties:
+##############################
+Thermal Conductivity:  0.260390640372883 
+Took 88.4994 seconds, Total: 1005.1866 seconds
+Thermal Expansivity:  5.399676720440276e-05  [1/K]
+Isothermal Compressibility:  1.3092424781487365e-06 [1/bar]
+Specific Heat Capacity:  20.59811469658918  [J/mol*K]
+Took 4.8566 seconds, Total: 1010.0433
 ```
