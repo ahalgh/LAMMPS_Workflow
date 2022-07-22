@@ -6,17 +6,21 @@ This is an older version of the workflow, new version has various updates to str
 
 
 Author: Alex Greenhalgh
+
 Date: 5/30/2021
+
 Contact: agreenh1@vols.utk.edu, (865)456-1554
  
 
 The MEAM_workflow directory determines various thermodynamic and structural properties of an interatomic potential file
 
 MEAM_workflow structure:
+
 Workflow_job calls the MEAM_prop.py python script, which takes care of calling all the lammps scripts and calculating 
+
 the resulting values
 
-
+```
 /MEAM_workflow
  |
  +-- README.txt
@@ -50,3 +54,4 @@ the resulting values
  |  |  
  |  |-- Graphs: Contains all the graphs from pygraphs
  |  |-- lammps_output: Same format as lammps scripts, containing .out and .log files from lammps scripts
+```
