@@ -4,11 +4,11 @@ https://www.lammps.org/
 
 This is an older version of the workflow, new version has various updates to structure and features but code will remain private
 
-#
-# Author: Alex Greenhalgh
-# Date: 5/30/2021
-# Contact: agreenh1@vols.utk.edu, (865)456-1554
-# 
+
+Author: Alex Greenhalgh
+Date: 5/30/2021
+Contact: agreenh1@vols.utk.edu, (865)456-1554
+ 
 
 The MEAM_workflow directory determines various thermodynamic and structural properties of an interatomic potential file
 
