@@ -11,13 +11,15 @@ Contact: agreenh1@vols.utk.edu, (865) 456-1554
 
 The MEAM_workflow directory determines various thermodynamic and structural properties of an interatomic potential file
 
-MEAM_workflow structure:
+### Workflow structure:
+![Structure Diagram](/res/Workflow_Diagram.png)
+
 
 Workflow_job calls the MEAM_prop.py python script, which takes care of calling all the lammps scripts and calculating 
 
 the resulting values
 
-### Repository Structure
+### Repository Structure Description
 ```
 /MEAM_workflow
  |
